@@ -1,6 +1,7 @@
 ## these functions will cache the inverse of a matrix.
 
-## this function creates a specail matrix object that can cache its inverse.
+## this function creates a specail matrix object that can cache its inverse. I created a vector first initializing it with the NULL object.
+## then set function with the y object as the parameter. 
 
 makeCacheMatrix <- function(x = matrix()) {
   inv <- NULL
